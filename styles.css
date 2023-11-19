@@ -22,8 +22,9 @@ section {
 .hero {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+              rgba(0, 0, 0, 0.7)),
+              url(bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -37,13 +38,12 @@ section {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
 }
 
 .hero .container h2 {
   color: #aaa;
   margin-bottom: 40px;
-  margin-top: 20px;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.5px;
